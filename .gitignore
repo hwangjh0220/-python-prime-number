@@ -1,1 +1,63 @@
+# 로컬 C 테스트 파일 무시
 /test.c
+
+# Python bytecode / cache
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Build / package files
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.Python
+wheels/
+share/python-wheels/
+
+# Test / coverage cache
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.envrc
+
+# IDE settings and temporary files
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# OS files
+.DS_Store
+
+# Type checker / linter cache
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Other Python tools
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+cython_debug/
